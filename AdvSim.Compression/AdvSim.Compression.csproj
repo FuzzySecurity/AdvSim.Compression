@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFrameworks>net35;net40;net452;netstandard2.0</TargetFrameworks>
+        <ImplicitUsings>disable</ImplicitUsings>
+        <Nullable>disable</Nullable>
+        <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+        <Configurations>Release</Configurations>
+        <Platforms>AnyCPU</Platforms>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Title>Compression Wrapper Library</Title>
+        <Authors>IBM AdvSim, Ruben Boonen (@FuzzySec)</Authors>
+        <Copyright>Copyright © 2022</Copyright>
+        <PackageProjectUrl>https://github.com/FuzzySecurity/AdvSim.Compression</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/FuzzySecurity/AdvSim.Compression</RepositoryUrl>
+        <PackageTags>Compression;Direct3D;GZip;LZMA;LZNT1;HUFF;LZMS;MSZIP;XPRESS</PackageTags>
+        <PackageReleaseNotes>Initial package release.</PackageReleaseNotes>
+        <Description>A simple and sane wrapper for a number of compression functions in C#. Compression operations include: Direct3D shader compression, GZip, LZMA, LZNT1, HUFF, LZMS, MSZIP and XPRESS.</Description>
+        <PackageLicenseUrl></PackageLicenseUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    </PropertyGroup>
+
+</Project>
